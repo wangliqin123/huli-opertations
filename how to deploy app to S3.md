@@ -40,6 +40,7 @@ For general use, the aws configure command is the fastest way to set up your AWS
 	
 
 > **$ aws s3 ls**
+> 
 > ![enter image description here](https://lh3.googleusercontent.com/a-8AQDhkCpoKtIdTN_KyQt4hU3wm6pq3MnjcgQFhnnDhmsgVmDlHOv8XOAYXvmHXzhqrjPaZzMEy=s0)
 
 
@@ -48,7 +49,8 @@ For general use, the aws configure command is the fastest way to set up your AWS
    
    
 
-> **$ aws s3 ls s3://*bucket-name***
+> **$ aws s3 ls s3://*bucket-name*** 
+> 
 > ![enter image description here](https://lh3.googleusercontent.com/-JL6THVLibFs/WiEiJIgv8II/AAAAAAAAAbA/Ll0Km6UVZ9Y0kghjxCgyldpLBA6LYQW5ACLcBGAs/s0/listing_buckets2.PNG)
 
 
@@ -63,7 +65,8 @@ For general use, the aws configure command is the fastest way to set up your AWS
    names can only start and end with a letter or number, and cannot
    contain a period next to a hyphen or another period.
 
-> **$ aws s3 mb s3://*bucket-name***
+> **$ aws s3 mb s3://*bucket-name*** 
+> 
 > ![enter image description here](https://lh3.googleusercontent.com/-qj7pG4NjSJY/WiEk3wnRskI/AAAAAAAAAbQ/XopPxit97k0X5nCC8sYAoXv1j9cBwZPaACLcBGAs/s0/making-bucket.PNG) 
 
 
@@ -75,7 +78,8 @@ For general use, the aws configure command is the fastest way to set up your AWS
 
  - To remove a bucket, use the following command.
 
-> **$ aws s3 rb s3://*bucket-name***
+> **$ aws s3 rb s3://*bucket-name*** 
+> 
 > ![enter image description here](https://lh3.googleusercontent.com/-7JV5N43WHkA/WiEl262BEMI/AAAAAAAAAbg/aefRNQu6cwEjcMjSmcjgQW-z0-DutyCKQCLcBGAs/s0/remove_bucket.PNG) 
 
  - By default, the bucket must be empty for the operation to succeed. To
@@ -104,7 +108,8 @@ For general use, the aws configure command is the fastest way to set up your AWS
 >  - *bucket-owner-read*
 >  - *bucket-owner-full-control*
 > 
-> **$ aws s3 cp file.txt s3://my-bucket/  *- - acl public-read***
+> **$ aws s3 cp file.txt s3://my-bucket/  *- - acl public-read*** 
+> 
 > ![enter image description here](https://lh3.googleusercontent.com/-n2Gar9nHT3Q/WiEvoL24uyI/AAAAAAAAAcE/7sqUzYc69o0xR4Kq9Ee7JF11jsLeDkLSwCLcBGAs/s0/upload_file.PNG) 
 
  
@@ -117,7 +122,8 @@ For general use, the aws configure command is the fastest way to set up your AWS
 --------------------------
 To deleting object use ***rm*** command.
 
-> **$ aws s3 rm s3://*my-bucket/path/MySubdirectory/MyFile3.txt***
+> **$ aws s3 rm s3://*my-bucket/path/MySubdirectory/MyFile3.txt*** 
+> 
 > ![enter image description here](https://lh3.googleusercontent.com/-Rgu2rbYKZz4/WiEwZK_o0CI/AAAAAAAAAcQ/QRcVbJgDeL8t_6gwV9IuGLw7j-WiCQwfwCLcBGAs/s0/delete_from+bucket.PNG) 
 
  
@@ -143,7 +149,8 @@ different size or modified time than files with the same name at the
 
  
 
-> **$ aws s3 sync *[source] [target] [--options]***
+> **$ aws s3 sync *[source] [target] [--options]*** 
+> 
 > ![enter image description here](https://lh3.googleusercontent.com/-pwFVJZFPT9c/WiFBs7r1icI/AAAAAAAAAdE/5c61QoAFiiks4UUufAsxJEeXto9nfw3kQCLcBGAs/s0/uploadwithsyncfromlocaltobucket.PNG)
 
 
