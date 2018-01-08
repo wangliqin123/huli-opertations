@@ -1,5 +1,5 @@
-﻿**Deploying a frontend application to Amazon S3 ( Simple Storage Service)**
-========================================================================
+# Deploying a frontend application to Amazon S3 ( Simple Storage Service)
+
 
 Your Scrum Master has an AWS IAM (Identity and Access Management) access, so you can use her/his Acces Key ID & Secret Acces Key.
 
@@ -8,17 +8,17 @@ Your Scrum Master has an AWS IAM (Identity and Access Management) access, so you
 
 
 
-----------
 
-**Installing the AWS Command Line Interface**
------------------------------------------
+
+# Installing the AWS Command Line Interface
+
 [Follow the steps](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 
-----------
 
 
-**Quick Configuration**
--------------------
+
+## Quick Configuration
+
 
 For general use, the aws configure command is the fastest way to set up your AWS CLI installation.
 
@@ -30,11 +30,11 @@ For general use, the aws configure command is the fastest way to set up your AWS
  
 
 
-----------
 
 
-**Listing buckets**
--------------------
+
+## Listing buckets
+
  - The following command lists all buckets.
 
 	
@@ -54,11 +54,11 @@ For general use, the aws configure command is the fastest way to set up your AWS
 > ![enter image description here](https://lh3.googleusercontent.com/-JL6THVLibFs/WiEiJIgv8II/AAAAAAAAAbA/Ll0Km6UVZ9Y0kghjxCgyldpLBA6LYQW5ACLcBGAs/s0/listing_buckets2.PNG)
 
 
-----------
 
 
-**Creating buckets**
-----------------
+
+## Creating buckets
+
 
  - Bucket names must be unique and should be DNS compliant. Bucket names
    can contain lowercase letters, numbers, hyphens and periods. Bucket
@@ -70,11 +70,11 @@ For general use, the aws configure command is the fastest way to set up your AWS
 > ![enter image description here](https://lh3.googleusercontent.com/-qj7pG4NjSJY/WiEk3wnRskI/AAAAAAAAAbQ/XopPxit97k0X5nCC8sYAoXv1j9cBwZPaACLcBGAs/s0/making-bucket.PNG) 
 
 
-----------
 
 
-**Removing buckets**
-----------------
+
+## Removing buckets
+
 
  - To remove a bucket, use the following command.
 
@@ -89,11 +89,11 @@ For general use, the aws configure command is the fastest way to set up your AWS
 > **$ aws s3 rb s3://*bucket-name* - -force**
 
 
-----------
 
 
-**Managing objects**
-----------------
+
+## Managing objects
+
 
  - The following example copies an object into a bucket. It grants read
    permissions on the object to everyone (public-read) .
@@ -115,11 +115,11 @@ For general use, the aws configure command is the fastest way to set up your AWS
  
 
 
-----------
 
 
-**Delete object from bucket.**
---------------------------
+
+## Delete object from bucket.
+
 To deleting object use ***rm*** command.
 
 > **$ aws s3 rm s3://*my-bucket/path/MySubdirectory/MyFile3.txt*** 
@@ -128,8 +128,8 @@ To deleting object use ***rm*** command.
 
  
 
-**Synchronizes the contents**
--------------------------
+## Synchronizes the contents
+
 
 
  
@@ -154,16 +154,16 @@ different size or modified time than files with the same name at the
 > ![enter image description here](https://lh3.googleusercontent.com/-pwFVJZFPT9c/WiFBs7r1icI/AAAAAAAAAdE/5c61QoAFiiks4UUufAsxJEeXto9nfw3kQCLcBGAs/s0/uploadwithsyncfromlocaltobucket.PNG)
 
 
-----------
 
 
-**To get more info from S3 commands visit:** [Amazon S3 commands](http://docs.aws.amazon.com/cli/latest/userguide/using-s3-commands.html)
+
+## To get more info from S3 commands visit: [Amazon S3 commands](http://docs.aws.amazon.com/cli/latest/userguide/using-s3-commands.html)
 
 
-----------
 
 
-***Also you can ask for help from the Malachite® team***
+
+### Also you can ask for help from the Malachite® team
 
 *"We care about your applications!"*
 
