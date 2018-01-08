@@ -39,7 +39,7 @@ For general use, the aws configure command is the fastest way to set up your AWS
 
 	
 
-> '$ aws s3 ls'
+> ```$ aws s3 ls```
 > 
 > ![enter image description here](https://lh3.googleusercontent.com/a-8AQDhkCpoKtIdTN_KyQt4hU3wm6pq3MnjcgQFhnnDhmsgVmDlHOv8XOAYXvmHXzhqrjPaZzMEy=s0)
 
@@ -49,7 +49,7 @@ For general use, the aws configure command is the fastest way to set up your AWS
    
    
 
-> '$ aws s3 ls s3://*bucket-name*' 
+> ```$ aws s3 ls s3://*bucket-name*```
 > 
 > ![enter image description here](https://lh3.googleusercontent.com/-JL6THVLibFs/WiEiJIgv8II/AAAAAAAAAbA/Ll0Km6UVZ9Y0kghjxCgyldpLBA6LYQW5ACLcBGAs/s0/listing_buckets2.PNG)
 
